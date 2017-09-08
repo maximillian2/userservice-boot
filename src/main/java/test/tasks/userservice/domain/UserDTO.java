@@ -7,7 +7,6 @@ public class UserDTO {
   private String lastName;
   private String userName;
 
-
   public Integer getId() {
     return id;
   }

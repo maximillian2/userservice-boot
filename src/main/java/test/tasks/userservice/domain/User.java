@@ -1,6 +1,5 @@
 package test.tasks.userservice.domain;
 
-
 import java.io.Serializable;
 
 public class User implements Serializable {
@@ -69,8 +68,6 @@ public class User implements Serializable {
   public void setPassword(String password) {
     this.password = password;
   }
-//  private String hashedPassword;
-
 
   @Override
   public boolean equals(Object o) {
